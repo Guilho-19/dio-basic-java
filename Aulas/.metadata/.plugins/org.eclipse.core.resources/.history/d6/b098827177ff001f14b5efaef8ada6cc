@@ -1,0 +1,8 @@
+package aulaIDE;
+
+public class MyClass {
+	public static void main (String[] args) {
+		String BR = "Brasil";
+		BR = "Brazil";
+	}
+}
