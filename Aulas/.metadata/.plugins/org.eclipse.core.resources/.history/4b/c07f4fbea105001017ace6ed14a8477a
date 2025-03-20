@@ -1,0 +1,66 @@
+package aulaIDE;
+
+public class Operadores {
+	public static void main (String[] args) {
+		String nomeCompleto = "Linguagem " + "Java";
+		System.out.println(nomeCompleto);
+		
+		int numero = 5;
+		System.out.println(- numero);
+		System.out.println(numero);
+		
+		numero = - numero;
+		System.out.println(numero);
+		numero = numero * -1; // operação para converter um número negativo para positivo
+		System.out.println(numero);
+		
+		int numero1 = 5;
+		numero1 ++;
+		System.out.println(numero1 ++);  // incremento pós print
+		System.out.println(numero1);     
+		System.out.println(++ numero1);  // incremento pré print
+		
+		System.out.println(numero1 --);  // decremento pós print
+		System.out.println(numero1);
+		System.out.println(-- numero1);  // decremento pré print
+		
+		boolean variavel = true;
+		System.out.println(!variavel);   // não altera a variavel, apenas o print
+		System.out.println(variavel);
+		variavel = !variavel;			 // inverção do valor booleano da variavel
+		System.out.println(variavel);    
+		
+		int a, b;
+		a = 5;
+		b = 6;
+		
+		String resultado = "";
+		if (a == b) {
+			resultado = "Verdadeiro";
+		} else {
+			resultado = "Falso";
+		}
+		
+		System.out.println(resultado);
+		
+		int c, d;
+		c = 5;
+		d = 5;
+		
+		int resultado1 = c == d ? 1 : 0;
+		System.out.println(resultado1);
+		
+		int n1 = 1;
+		int n2 = 2;
+		
+		boolean sn = n1 == n2;
+		System.out.println("Número 1 é igual ao Número 2: " + sn);
+		
+		int n3, n4;
+		n3 = 1;
+		n4 = 2;
+		
+		boolean sn1 = n3 != n4;
+		System.out.println("Número 1 é diferente do Número 2: " sn1);
+	}
+}
