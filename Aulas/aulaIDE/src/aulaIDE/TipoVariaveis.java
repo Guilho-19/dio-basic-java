@@ -15,7 +15,5 @@ public class TipoVariaveis {
 		System.out.println(numero);
 		
 		final double valorPI = 3.14; // utilizar final garante que a variável não será alterada
-		
-		
 	}
 }
